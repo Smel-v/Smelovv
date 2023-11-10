@@ -276,3 +276,54 @@ body{
     transition: 0.8s ease-in;
 }
 
+@media (max-width: 1258px){
+    .window {
+        
+        margin-left: 320px;
+
+    }
+}
+@media (max-width: 414px){
+    .window {
+        
+        margin-left: 60px;
+
+    }
+    .window_icon{
+        margin-left: 85px;
+    }
+    .nav{
+        font-size: 14px;
+        padding: 5px 5px 5px 5px;
+    }
+    .heart{
+        margin-top: 10px;
+        margin-left: 105px;
+    }
+    .cards{
+        margin-bottom: 400px;
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        
+    }
+    .box_cards{
+        margin-top: 50px;
+    }
+    .info_text{
+        font-size: 17px;
+    }
+    .Image_gif_vk{
+        padding-left: 3px;
+    }
+    .Image_gif_telegram{
+        padding-left: 3px;
+
+    }
+    .Image_gif_tube{
+        padding-left: 3px;
+    }
+    .Image_gif_hub{
+        padding-left: 3px;
+    }
+}
